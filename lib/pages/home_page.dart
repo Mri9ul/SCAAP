@@ -16,17 +16,6 @@ class Homepage extends StatelessWidget {
             Container(
               child: Text("welcome to $days days of project by $name"),
             ),
-            GestureDetector(
-              onTap: () {
-                Navigator.pushNamed(context, "/login");
-              },
-              child: Container(
-                color: Colors.red,
-                height: 50,
-                width: 100,
-                child: const Text("HomePage"),
-              ),
-            )
           ],
         ),
       ),

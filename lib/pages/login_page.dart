@@ -17,17 +17,6 @@ class Loginpage extends StatelessWidget {
                   fontSize: 10,
                   fontWeight: FontWeight.bold,
                 )),
-            GestureDetector(
-              onTap: () {
-                Navigator.pushNamed(context, "/home");
-              },
-              child: Container(
-                color: Colors.red,
-                height: 50,
-                width: 100,
-                child: const Text("HomePage"),
-              ),
-            )
           ],
         ));
   }
